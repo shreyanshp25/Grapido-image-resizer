@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="overflow-y: hidden; overflow-x: hidden;">
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    Hello! this is my first project. I am making an image resizer...
+  </p>
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+  
+    <!-- <ion-slides #slider zoom> 
+      <ion-slide>
+        <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 100%;">
+        <div class="swiper-zoom-container">
+          <img src="/assets/imgs/san-francisco.jpg">
+        </div>
+      </ion-scroll>
+      </ion-slide>
+    </ion-slides>-->
+        <div class="container">
+          <div id="Close"(click)="restore()">X</div>
+          <img class="image"id="img"src="/assets/imgs/sample.png"(click)="enlarge()">
+        </div>
+        
+      
+    <!-- <ion-content class="swiper-zoom-container" style="background: url('../assets/imgs/san-francisco.jpg') no-repeat;background-size: 100% 902px;" padding></ion-content> -->
+    <!-- <ion-scroll class="image-window" scrollX="true" scrollY="true">
+      <img class="image" src="/assets/imgs/san-francisco.jpg">
+    </ion-scroll> -->
+       
+</ion-content>
