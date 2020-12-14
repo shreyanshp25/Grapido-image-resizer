@@ -1,0 +1,1 @@
+# Grapido-image-resizer
